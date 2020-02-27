@@ -133,15 +133,39 @@
   color: #212121;
 }
 
+.location{
+  font-size: 30rpx;
+  line-height: 42rpx;
+  color: #212121;
+}
+
+ .time{
+  font-size: 30rpx;
+  line-height: 42rpx;
+  color: #212121;
+ 
+}
+
 .news-subtitle {
   font-size: 24rpx;
   line-height: 34rpx;
   color: #757575;
 }
 
-.news-image {
+/* .news-image {
   width: 172rpx;
   height: 120rpx;
+} */
+
+.news-image {
+ /* width: 100%; */ /* 670rpx */
+	 width: 100%;
+  height: 320rpx;
+  box-shadow: 0 10rpx 15rpx rgba(0, 0, 0, 0.1);
+  border-radius: 2rpx;
+ overflow: hidden; 
+   margin: 10rpx 0;
+
 }
 
 /* 去除最后一个新闻的下边线 */
